@@ -1,0 +1,46 @@
+/home/user> ls
+D Documents
+D Downloads
+F example.txt
+D Pictures
+
+/home/user> cd Documents
+Changed to: /home/user/Documents
+
+/home/user/Documents> ls
+F report.doc
+D Projects
+F notes.txt
+
+/home/user/Documents> view notes.txt
+This is a sample note.
+Remember to finish the project by Friday.
+
+/home/user/Documents> mkdir NewFolder
+Directory created: /home/user/Documents/NewFolder
+
+/home/user/Documents> ls
+F report.doc
+D Projects
+F notes.txt
+D NewFolder
+
+/home/user/Documents> cp notes.txt NewFolder/backup_notes.txt
+File copied successfully.
+
+/home/user/Documents> cd NewFolder
+Changed to: /home/user/Documents/NewFolder
+
+/home/user/Documents/NewFolder> ls
+F backup_notes.txt
+
+/home/user/Documents/NewFolder> mv backup_notes.txt important_notes.txt
+File moved successfully.
+
+/home/user/Documents/NewFolder> ls
+F important_notes.txt
+
+/home/user/Documents/NewFolder> cd ..
+Changed to: /home/user/Documents
+
+/home/user/Documents> exit
